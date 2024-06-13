@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>SignUp</title>
+        <style>
+            .outer{
+                display: flex;
+                justify-content: center;
+            
+                align-items: center;
+            }
+            .login-container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 0.5rem;
+             
+            }
+            .login{
+                margin-top: 100px;
+                background-color:rgba(0, 0, 0, 0.562);
+                height: 560px;
+                width: 420px;
+                border-radius: 10px;
+                box-shadow: 40px;
+               
+           
+            }
+            .login-content{
+                list-style: none;
+              
+                
+
+            }
+            .emailbox{
+
+                border-radius: 2px;
+                border: 0.5px bold;
+                width: 280px;
+                background-color: transparent;
+                color: white;
+                padding: 10px;
+            }
+            .passbox{
+
+                width: 280px;
+                background-color: transparent;
+                color: white;
+                padding: 10px;
+            }
+           
+            .btn{
+                text-align: center;
+                width:280px;
+                margin-top: 30px;
+                margin-left:40px;
+                padding:0.5rem 1rem;
+                color: var(--white);
+                background-color:rgba(255, 0, 0, 0.795);
+                border-radius: 5px;
+                text-decoration: none;
+            }
+            h2{
+                margin-left:140px
+            }
+            .close{
+                margin-left: 340px;
+                padding: 10px;
+                font-size: 24px;
+                color: white;
+                
+            }
+            .big-box{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+            }
+            .box{
+                display: flex;
+                color: white;
+                
+            }
+            .second-box{
+                display: flex;
+            }
+          
+              
+        </style>
+    </head>
+    <body style="position: relative;">
+        <div class="maindiv" style="position: absolute;">
+            <div class="outerdiv">
+                <header>
+                    <nav>
+                        <div class="netflix-heading">
+                            <img class="netflix-icon-img" src="https://media.geeksforgeeks.org/wp-content/uploads/20240313101431/Netflix-Logo.png"/>
+                        </div>
+                    </nav>
+    
+                </header>
+                <div class="outer">
+                    <div class="login">
+                        <div class="box-login">
+                            <a href="#"class ="close" onclick="window.open('index.html')"><ion-icon name="close-outline"></ion-icon></a>
+                            <h2 style="color: white; font-weight: bolder;">Sign In</h2>
+                            <br/>
+                            <div class="login-container">
+                                <form action="#">
+                                    <ul class="login-content">
+                                        
+                                        <li class="reg-list"> <div class="input-box" id="maill" >
+                                            
+                                            <input type="email" required class="emailbox" placeholder="Email or mobile number">
+                                            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                                            
+                                        </div>
+                                        <br/>
+        
+                                        </li>
+                                        <li class="reg-list">
+                                            <div class="input-box" id="pass"style=>
+                                               
+                                                <input type="password" required class="passbox" placeholder="Password">
+                                                <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                                                
+                                            </div>
+        
+                                        </li>
+                                    </ul>
+                                    <button class="btn" type="submit" style="margin-left: 32px; color: white; font-weight: bold;">Save</button>
+                                    
+                                </form>
+                                <h6 style="margin-left: 25px; color: white;" >OR</h6>
+                                <button class="btn" type="submit" style="margin-left: 32px; background-color: gray; color: white; font-weight: bold;">Use a sign in code</button>
+                                <a href="#" style="color: white;">Forgot password?</a>
+                                
+                                    <div class="box">
+                                        <input type="checkbox" value="remember me">
+                                        <label>Remember Me</label>
+                                        
+    
+                                    </div>
+                                    
+                                        <h6 style="color: gray;">New to Netflix?</h6><a href="index.html" style="color: white;">Sign up now</a>
+        
+                                  
+    
+                                    
+
+                              
+                              
+                                
+                            </div>
+                                   
+                                   
+                               
+                                  
+                                  
+                        
+                                  
+                                  
+                               
+                             
+        
+                            
+                            
+                        </div>
+                    </div>
+    
+
+                </div>
+                
+            </div>
+           
+        </div>
+            
+        </div>
+
+    </body>
+</html>
